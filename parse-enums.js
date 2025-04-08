@@ -79,7 +79,7 @@ function parseEnumBlock(text, enumName) {
       const name = lineMatch[1];      // e.g. MY_NAME
       const hexVal = lineMatch[2];    // e.g. 0x0000
       // We'll build up an object like: { "0x0000": "MY_NAME" }
-      enumMap[hexVal.toLowerCase()] = name;
+      enumMap[hexVal] = name;
     }
   }
 

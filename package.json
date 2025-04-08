@@ -1,0 +1,17 @@
+{
+    "name": "primitive-modbus-utility",
+    "version": "0.1.0",
+    "description": "A command-line tool for reading/writing Modbus registers.",
+    "main": "bin/modbus-utility.js",
+    "scripts": {
+      "start": "node main.js",
+      "parseEnums": "node parse-enums.js"
+    },
+    "keywords": [],
+    "author": "Antti Kotajärvi",
+    "license": "MIT",
+    "dependencies": {
+      "modbus-serial": "^8.0.5"
+    }
+  }
+  
